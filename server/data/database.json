@@ -1,0 +1,618 @@
+{
+  "users": [
+    {
+      "id": "STU001",
+      "role": "Student",
+      "email": "student@demo.com",
+      "passwordHash": "scrypt:d9251d112aca5d4598ac587cd96054ef:9fbcbb2c2ea8913efae1a027a69f082d116ee8655b11b95d07a915f2e5e8f03ee8fa800cb5ef3c6d404df7694b4447075e417f969c83dd532cfd0492b074ad66",
+      "name": "Gopika J",
+      "section": "III AI&DS A"
+    },
+    {
+      "id": "FAC001",
+      "role": "Faculty",
+      "email": "parameswari@fxec.edu.in",
+      "passwordHash": "scrypt:21699146a4abff999534fb19865c4b41:f9be4f1937765081d5d0a7bfc8bc6e33746de257801184f1e18d84200a561e53a05af8c7b86f153cfd53f615b0029100936440c9e3ddb441166a1546db317f9d",
+      "name": "Mrs. Parameswari"
+    },
+    {
+      "id": "FAC002",
+      "role": "Faculty",
+      "email": "soundariya@fxec.edu.in",
+      "passwordHash": "scrypt:b18ee3a183fa09abf19b3d2b9650411e:bf2f0c7d3ddc427823af9abe063f1bd66f9e411a3fd1175731440d5b268d2d547954e04ac90bd2e88ae448340fc98aed82c39488f4543ccb38c90df9e4740e08",
+      "name": "Ms. Soundariya S"
+    },
+    {
+      "id": "FAC003",
+      "role": "Faculty",
+      "email": "angeline@fxec.edu.in",
+      "passwordHash": "scrypt:d78a16914df3fad3c7626d433a3ebf33:7f360cbaa291049f204af35b515bf8655336af279d003bc4b167688655a5cb4e17a70f1b7966ba78988a1415e2b3db82d41727ec30ef7fd04b0bbdf90e5149e8",
+      "name": "Mrs. Angeline Valentina Sweety A"
+    },
+    {
+      "id": "FAC004",
+      "role": "Faculty",
+      "email": "lincy@fxec.edu.in",
+      "passwordHash": "scrypt:a3bc10e046ca8a6c7d2d5c283aae2378:41183e160f302a0ee6edc513525c378dc1b69e83b03a1c0e375ae92b611df2ffd8b7a9d55bbe39ab5125b8bdfb5a435f1c4169e0da5fbea090bb9228a92e0dba",
+      "name": "Mrs. S.V. Lincy"
+    },
+    {
+      "id": "FAC005",
+      "role": "Faculty",
+      "email": "gomathiselvi@fxec.edu.in",
+      "passwordHash": "scrypt:969102b457fd29b6f5cc5fea06d3f0b5:1511253ac889a08a624996d89bf5c153756f6810e87475f78994b1f40532a72494e4c6343276811764cb05f8392af339922d28508c62ff9ee85ef1ad171accc8",
+      "name": "Mrs. R. Gomathiselvi"
+    },
+    {
+      "id": "FAC006",
+      "role": "Faculty",
+      "email": "merlin@fxec.edu.in",
+      "passwordHash": "scrypt:e61691c386daad83803e98ae1b600f31:7c21506ea61cda7cbb1ef211ac8aeddfacd343da205fae98d62a8cd5e0f3020ebc27bd8086c70c321829da095c449d78803608573581f87bd8c5e5d2cc075f40",
+      "name": "Mrs. Merlin Sneha PC"
+    },
+    {
+      "id": "FAC007",
+      "role": "Faculty",
+      "email": "janet@fxec.edu.in",
+      "passwordHash": "scrypt:e7c6c5c3ccf72ba24947720554336de4:87ddee2e52ede2c86dbaf215996778196f0670347a5ff90eebb9f107e530bf5d60695a52de8d5fbff053c81f215001e7a315bf71363ac202e86c609b9d87ca92",
+      "name": "Mrs. Janet P"
+    },
+    {
+      "id": "HOD001",
+      "role": "HOD",
+      "email": "hod@demo.com",
+      "passwordHash": "scrypt:52ba43cba2a1df22e22a6f42aec2db52:c3ba4d944c49cc53258b613b5aac2676239ab0031bf2f971ef3aedda0acdbf59d1db569aa0a7b8c5e387e523bd00d124840e5bd294cbe9316bc7c373f793938b",
+      "name": "AI&DS HOD"
+    },
+    {
+      "id": "ACA001",
+      "role": "Academic",
+      "email": "academic@demo.com",
+      "passwordHash": "scrypt:b4ddcbf76dfa61401825a9091ee9e904:d97dbb82572ae4f92f9b74639164ce0364c2b8b79731841f29d2dab9da1b8d8eb5129d76e205e38abac40a76c7eb166c6eeba68e097bee097d65f208a8f5e76d",
+      "name": "Academic Professor"
+    },
+    {
+      "id": "OFF001",
+      "role": "Official",
+      "email": "admin@demo.com",
+      "passwordHash": "scrypt:6f6d34b5733a3880aa90b6e66a69c25f:3d9f02c78984c710b25fc5a811e9555fe4c5b0f9124e9610e2c7a4553a7c3cdb7df12d5c20ab015b260acb17b6349cc4cabf898c40ca16cae19d24efea74e551",
+      "name": "Higher Official"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "SUB001",
+      "code": "24AI5601",
+      "name": "Database & Data Warehousing",
+      "facultyId": "FAC002",
+      "faculty": "Ms. Soundariya S",
+      "progress": 72,
+      "expected": 78
+    },
+    {
+      "id": "SUB002",
+      "code": "24AI5602",
+      "name": "Machine Learning",
+      "facultyId": "FAC001",
+      "faculty": "Mrs. Parameswari",
+      "progress": 68,
+      "expected": 74
+    },
+    {
+      "id": "SUB003",
+      "code": "24AI5703",
+      "name": "Pattern Recognition",
+      "facultyId": "FAC003",
+      "faculty": "Mrs. Angeline Valentina Sweety A",
+      "progress": 74,
+      "expected": 72
+    },
+    {
+      "id": "SUB004",
+      "code": "24AI5704",
+      "name": "AI Enhanced Software Engineering",
+      "facultyId": "FAC004",
+      "faculty": "Mrs. S.V. Lincy",
+      "progress": 81,
+      "expected": 76
+    },
+    {
+      "id": "SUB005",
+      "code": "24AI5706",
+      "name": "Artificial Neural Networks",
+      "facultyId": "FAC005",
+      "faculty": "Mrs. R. Gomathiselvi",
+      "progress": 65,
+      "expected": 71
+    },
+    {
+      "id": "SUB006",
+      "code": "24AI5707",
+      "name": "Text Analytics",
+      "facultyId": "FAC005",
+      "faculty": "Mrs. R. Gomathiselvi",
+      "progress": 70,
+      "expected": 72
+    },
+    {
+      "id": "SUB007",
+      "code": "24IT5804",
+      "name": "Network Technologies and Protocols",
+      "facultyId": "FAC006",
+      "faculty": "Mrs. Merlin Sneha PC",
+      "progress": 77,
+      "expected": 75
+    },
+    {
+      "id": "SUB008",
+      "code": "24AI5603",
+      "name": "Java Programming and Embedded SQL",
+      "facultyId": "FAC007",
+      "faculty": "Mrs. Janet P",
+      "progress": 80,
+      "expected": 78
+    },
+    {
+      "id": "SUB009",
+      "code": "24AI5611",
+      "name": "Database & Data Warehousing Laboratory",
+      "facultyId": "FAC002",
+      "faculty": "Ms. Soundariya S",
+      "progress": 70,
+      "expected": 76
+    },
+    {
+      "id": "SUB010",
+      "code": "24AI5612",
+      "name": "Machine Learning Laboratory",
+      "facultyId": "FAC001",
+      "faculty": "Mrs. Parameswari",
+      "progress": 69,
+      "expected": 74
+    },
+    {
+      "id": "SUB011",
+      "code": "24HS5911",
+      "name": "Communication Skills and Career Readiness Laboratory",
+      "facultyId": "FAC007",
+      "faculty": "Mrs. Janet P",
+      "progress": 84,
+      "expected": 80
+    },
+    {
+      "id": "SUB012",
+      "code": "24AI5501",
+      "name": "Business Analytics with R",
+      "facultyId": "FAC004",
+      "faculty": "Mrs. S.V. Lincy",
+      "progress": 76,
+      "expected": 73
+    }
+  ],
+  "timetable": [
+    {
+      "id": "TT001",
+      "subjectId": "SUB007",
+      "code": "24IT5804",
+      "subject": "Network Technologies and Protocols",
+      "faculty": "Mrs. Merlin Sneha PC",
+      "facultyId": "FAC006",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "09:00 - 09:50",
+      "day": "Monday"
+    },
+    {
+      "id": "TT002",
+      "subjectId": "SUB008",
+      "code": "24AI5603",
+      "subject": "Java Programming and Embedded SQL",
+      "faculty": "Mrs. Janet P",
+      "facultyId": "FAC007",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "09:50 - 10:40",
+      "day": "Monday"
+    },
+    {
+      "id": "TT003",
+      "subjectId": "SUB002",
+      "code": "24AI5602",
+      "subject": "Machine Learning",
+      "faculty": "Mrs. Parameswari",
+      "facultyId": "FAC001",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "10:55 - 11:45",
+      "day": "Monday"
+    },
+    {
+      "id": "TT004",
+      "subjectId": "SUB007",
+      "code": "24IT5804",
+      "subject": "Network Technologies and Protocols",
+      "faculty": "Mrs. Merlin Sneha PC",
+      "facultyId": "FAC006",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "11:45 - 12:35",
+      "day": "Monday"
+    },
+    {
+      "id": "TT005",
+      "subjectId": "SUB011",
+      "code": "24HS5911",
+      "subject": "Communication Skills and Career Readiness Laboratory",
+      "faculty": "Mrs. Janet P",
+      "facultyId": "FAC007",
+      "section": "III AI&DS A",
+      "room": "Lab 3",
+      "time": "01:20 - 02:10",
+      "day": "Monday"
+    },
+    {
+      "id": "TT006",
+      "subjectId": "SUB011",
+      "code": "24HS5911",
+      "subject": "Communication Skills and Career Readiness Laboratory",
+      "faculty": "Mrs. Janet P",
+      "facultyId": "FAC007",
+      "section": "III AI&DS A",
+      "room": "Lab 3",
+      "time": "02:10 - 03:00",
+      "day": "Monday"
+    },
+    {
+      "id": "TT007",
+      "subjectId": "SUB003",
+      "code": "24AI5703",
+      "subject": "Pattern Recognition",
+      "faculty": "Mrs. Angeline Valentina Sweety A",
+      "facultyId": "FAC003",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "03:15 - 04:05",
+      "day": "Monday"
+    },
+    {
+      "id": "TT008",
+      "subjectId": "SUB002",
+      "code": "24AI5602",
+      "subject": "Machine Learning",
+      "faculty": "Mrs. Parameswari",
+      "facultyId": "FAC001",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "09:00 - 09:50",
+      "day": "Tuesday"
+    },
+    {
+      "id": "TT009",
+      "subjectId": "SUB005",
+      "code": "24AI5706",
+      "subject": "Artificial Neural Networks",
+      "faculty": "Mrs. R. Gomathiselvi",
+      "facultyId": "FAC005",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "09:50 - 10:40",
+      "day": "Tuesday"
+    },
+    {
+      "id": "TT010",
+      "subjectId": "SUB003",
+      "code": "24AI5703",
+      "subject": "Pattern Recognition",
+      "faculty": "Mrs. Angeline Valentina Sweety A",
+      "facultyId": "FAC003",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "10:55 - 11:45",
+      "day": "Tuesday"
+    },
+    {
+      "id": "TT011",
+      "subjectId": "SUB008",
+      "code": "24AI5603",
+      "subject": "Java Programming and Embedded SQL",
+      "faculty": "Mrs. Janet P",
+      "facultyId": "FAC007",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "11:45 - 12:35",
+      "day": "Tuesday"
+    },
+    {
+      "id": "TT012",
+      "subjectId": "SUB011",
+      "code": "24HS5911",
+      "subject": "Communication Skills and Career Readiness Laboratory",
+      "faculty": "Mrs. Janet P",
+      "facultyId": "FAC007",
+      "section": "III AI&DS A",
+      "room": "Lab 3",
+      "time": "01:20 - 02:10",
+      "day": "Tuesday"
+    },
+    {
+      "id": "TT013",
+      "subjectId": "SUB011",
+      "code": "24HS5911",
+      "subject": "Communication Skills and Career Readiness Laboratory",
+      "faculty": "Mrs. Janet P",
+      "facultyId": "FAC007",
+      "section": "III AI&DS A",
+      "room": "Lab 3",
+      "time": "02:10 - 03:00",
+      "day": "Tuesday"
+    },
+    {
+      "id": "TT014",
+      "subjectId": "SUB007",
+      "code": "24IT5804",
+      "subject": "Network Technologies and Protocols",
+      "faculty": "Mrs. Merlin Sneha PC",
+      "facultyId": "FAC006",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "03:15 - 04:05",
+      "day": "Tuesday"
+    },
+    {
+      "id": "TT015",
+      "subjectId": "SUB005",
+      "code": "24AI5706",
+      "subject": "Artificial Neural Networks",
+      "faculty": "Mrs. R. Gomathiselvi",
+      "facultyId": "FAC005",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "09:00 - 09:50",
+      "day": "Wednesday"
+    },
+    {
+      "id": "TT016",
+      "subjectId": "SUB007",
+      "code": "24IT5804",
+      "subject": "Network Technologies and Protocols",
+      "faculty": "Mrs. Merlin Sneha PC",
+      "facultyId": "FAC006",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "09:50 - 10:40",
+      "day": "Wednesday"
+    },
+    {
+      "id": "TT017",
+      "subjectId": "SUB001",
+      "code": "24AI5601",
+      "subject": "Database & Data Warehousing",
+      "faculty": "Ms. Soundariya S",
+      "facultyId": "FAC002",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "10:55 - 11:45",
+      "day": "Wednesday"
+    },
+    {
+      "id": "TT018",
+      "subjectId": "SUB003",
+      "code": "24AI5703",
+      "subject": "Pattern Recognition",
+      "faculty": "Mrs. Angeline Valentina Sweety A",
+      "facultyId": "FAC003",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "11:45 - 12:35",
+      "day": "Wednesday"
+    },
+    {
+      "id": "TT019",
+      "subjectId": "SUB009",
+      "code": "24AI5611",
+      "subject": "Database & Data Warehousing Laboratory",
+      "faculty": "Ms. Soundariya S",
+      "facultyId": "FAC002",
+      "section": "III AI&DS A",
+      "room": "Lab 1",
+      "time": "01:20 - 02:10",
+      "day": "Wednesday"
+    },
+    {
+      "id": "TT020",
+      "subjectId": "SUB009",
+      "code": "24AI5611",
+      "subject": "Database & Data Warehousing Laboratory",
+      "faculty": "Ms. Soundariya S",
+      "facultyId": "FAC002",
+      "section": "III AI&DS A",
+      "room": "Lab 1",
+      "time": "02:10 - 03:00",
+      "day": "Wednesday"
+    },
+    {
+      "id": "TT021",
+      "subjectId": "SUB005",
+      "code": "24AI5706",
+      "subject": "Artificial Neural Networks",
+      "faculty": "Mrs. R. Gomathiselvi",
+      "facultyId": "FAC005",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "03:15 - 04:05",
+      "day": "Wednesday"
+    },
+    {
+      "id": "TT022",
+      "subjectId": "SUB010",
+      "code": "24AI5612",
+      "subject": "Machine Learning Laboratory",
+      "faculty": "Mrs. Parameswari",
+      "facultyId": "FAC001",
+      "section": "III AI&DS A",
+      "room": "Lab 2",
+      "time": "09:00 - 09:50",
+      "day": "Thursday"
+    },
+    {
+      "id": "TT023",
+      "subjectId": "SUB009",
+      "code": "24AI5611",
+      "subject": "Database & Data Warehousing Laboratory",
+      "faculty": "Ms. Soundariya S",
+      "facultyId": "FAC002",
+      "section": "III AI&DS A",
+      "room": "Lab 1",
+      "time": "09:50 - 10:40",
+      "day": "Thursday"
+    },
+    {
+      "id": "TT024",
+      "subjectId": "SUB005",
+      "code": "24AI5706",
+      "subject": "Artificial Neural Networks",
+      "faculty": "Mrs. R. Gomathiselvi",
+      "facultyId": "FAC005",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "10:55 - 11:45",
+      "day": "Thursday"
+    },
+    {
+      "id": "TT025",
+      "subjectId": "SUB001",
+      "code": "24AI5601",
+      "subject": "Database & Data Warehousing",
+      "faculty": "Ms. Soundariya S",
+      "facultyId": "FAC002",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "11:45 - 12:35",
+      "day": "Thursday"
+    },
+    {
+      "id": "TT026",
+      "subjectId": "SUB002",
+      "code": "24AI5602",
+      "subject": "Machine Learning",
+      "faculty": "Mrs. Parameswari",
+      "facultyId": "FAC001",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "01:20 - 02:10",
+      "day": "Thursday"
+    },
+    {
+      "id": "TT027",
+      "subjectId": "SUB002",
+      "code": "24AI5602",
+      "subject": "Machine Learning",
+      "faculty": "Mrs. Parameswari",
+      "facultyId": "FAC001",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "02:10 - 03:00",
+      "day": "Thursday"
+    },
+    {
+      "id": "TT028",
+      "subjectId": "SUB005",
+      "code": "24AI5706",
+      "subject": "Artificial Neural Networks",
+      "faculty": "Mrs. R. Gomathiselvi",
+      "facultyId": "FAC005",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "03:15 - 04:05",
+      "day": "Thursday"
+    },
+    {
+      "id": "TT029",
+      "subjectId": "SUB003",
+      "code": "24AI5703",
+      "subject": "Pattern Recognition",
+      "faculty": "Mrs. Angeline Valentina Sweety A",
+      "facultyId": "FAC003",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "09:00 - 09:50",
+      "day": "Friday"
+    },
+    {
+      "id": "TT030",
+      "subjectId": "SUB002",
+      "code": "24AI5602",
+      "subject": "Machine Learning",
+      "faculty": "Mrs. Parameswari",
+      "facultyId": "FAC001",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "09:50 - 10:40",
+      "day": "Friday"
+    },
+    {
+      "id": "TT031",
+      "subjectId": "SUB009",
+      "code": "24AI5611",
+      "subject": "Database & Data Warehousing Laboratory",
+      "faculty": "Ms. Soundariya S",
+      "facultyId": "FAC002",
+      "section": "III AI&DS A",
+      "room": "Lab 1",
+      "time": "10:55 - 11:45",
+      "day": "Friday"
+    },
+    {
+      "id": "TT032",
+      "subjectId": "SUB008",
+      "code": "24AI5603",
+      "subject": "Java Programming and Embedded SQL",
+      "faculty": "Mrs. Janet P",
+      "facultyId": "FAC007",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "11:45 - 12:35",
+      "day": "Friday"
+    },
+    {
+      "id": "TT033",
+      "subjectId": "SUB002",
+      "code": "24AI5602",
+      "subject": "Machine Learning",
+      "faculty": "Mrs. Parameswari",
+      "facultyId": "FAC001",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "01:20 - 02:10",
+      "day": "Friday"
+    },
+    {
+      "id": "TT034",
+      "subjectId": "SUB008",
+      "code": "24AI5603",
+      "subject": "Java Programming and Embedded SQL",
+      "faculty": "Mrs. Janet P",
+      "facultyId": "FAC007",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "02:10 - 03:00",
+      "day": "Friday"
+    },
+    {
+      "id": "TT035",
+      "subjectId": "SUB001",
+      "code": "24AI5601",
+      "subject": "Database & Data Warehousing",
+      "faculty": "Ms. Soundariya S",
+      "facultyId": "FAC002",
+      "section": "III AI&DS A",
+      "room": "Room 204",
+      "time": "03:15 - 04:05",
+      "day": "Friday"
+    }
+  ],
+  "activeClasses": [],
+  "attendance": [],
+  "feedback": [],
+  "substitutions": []
+}
